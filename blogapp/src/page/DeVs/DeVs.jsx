@@ -90,6 +90,7 @@ const DeVs = () => {
       file,
       preset: "mernStack-2",
       cloudName: "dairwhedy",
+      folder: "developers",
     });
     createADev({ ...input, photo: fileData.secure_url });
 
